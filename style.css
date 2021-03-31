@@ -1,0 +1,164 @@
+/* common start */
+body{
+	margin: 0;
+	padding: 0;
+}
+/* common end */
+
+/* header start */
+header{
+	border: 1px solid red;
+	padding: 20px 0;
+
+}
+.container {
+	margin: 0 auto;
+	width :70% ;
+	overflow: hidden;
+}
+
+.logo { width: 17%;
+	float: left;
+}
+.logo a {
+	display: block;
+}
+.logo a img{
+	width: 100%;
+
+}
+
+.menu {
+	width: 56%;
+	float: right;
+	
+
+}
+.menu ul{
+	margin-top: 23px;
+	float: right;
+
+
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	color: #131313;
+	display: block;
+	text-decoration: none;
+	padding: 0 9px;
+	font-family: sans-serif;
+	font-size: 17px;
+	
+} 
+
+.menu ul li a:hover{
+		color: red;
+
+}
+.menu ul li :last-child a{
+	padding-right: 0; 
+
+}
+/* header end */
+/*banner start*/
+.banner{
+	background-image: url(image/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+}
+.b_content{
+	width: 50%;
+	/*border: 1px solid yellow;*/
+	height: 450px;
+	padding-top: 50px;
+}
+.b_content h1{
+	margin: 20px 0 30px ;
+	font-family: sans-serif; 
+	font-size: 52px ;
+	font-weight: 700;
+	color: white;
+	text-transform: capitalize;
+}
+.b_p{
+	text-transform: capitalize;
+}
+.b_content p{
+	margin: 0 0 15px;
+	font-family: sans-serif; ; 
+	font-size: 15px ;
+	font-weight: 400;
+	color: white;
+}
+.b_content button{
+	margin: 20px 0 0;
+	width: 233px;
+	height: 34px;
+	background-color: #F92453 ;
+	border: none;
+	font-family: sans-serif; ; 
+	font-size: 15px ;
+	font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+	transition: .5s;
+}
+.b_content button:hover{
+	background-color: white;
+	color: #F92453;
+}
+/*banner end*/
+/*works start*/
+.works{
+	padding: 100px 0;
+}
+.top{
+	margin:0 auto;
+	width:70%;
+	text-align: center;
+}
+.w_h1{
+	font-family: sans-serif; ; 
+	font-size: 25px ;
+	font-weight: 700;
+	color: #101010;
+	text-transform: uppercase;
+}
+.w_p{
+	font-family: sans-serif; ; 
+	font-size: 15px ;
+	font-weight: 500;
+	color: #4e4e4e;
+	line-height: 25px;
+
+}
+.bottom{
+	overflow: hidden;
+}
+.single{
+	margin: 0 3%;
+	float: left;
+	width: 24%;
+	text-align: center;
+	padding: 30px 1.66% 0;
+}
+.s_img{
+	width: 35%;
+	margin: 0 auto;
+}
+.s_img img{
+	width: 100%;
+}
+.single p{
+	margin: 25px 0;
+	font-family: sans-serif; ; 
+	font-size: 15px ;
+	font-weight: 700;
+	color: #101010;
+}
+/*works end*/
